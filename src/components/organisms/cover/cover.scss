@@ -1,0 +1,12 @@
+@import '../../styles/breakpoints';
+
+.cover__image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+
+  @media (min-width: $medium) {
+    width: 300px;
+    max-width: 300px;
+  }
+}
